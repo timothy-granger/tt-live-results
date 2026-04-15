@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:36:59.647220",
+  "updated_at": "2026-04-14T23:37:10.089750",
   "results": [
     {
       "bib": "1",
@@ -335,6 +335,15 @@
       "finish_time": "23:36:56.546",
       "result_time": "00:07:45.093",
       "result_ms": 465093
+    },
+    {
+      "bib": "38",
+      "first_name": "Debra",
+      "last_name": "Johnson",
+      "category": "Women 70-74",
+      "finish_time": "23:37:08.201",
+      "result_time": "00:07:26.748",
+      "result_ms": 446748
     }
   ]
 }
