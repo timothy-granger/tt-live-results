@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:23:48.936503",
+  "updated_at": "2026-04-14T23:23:54.068844",
   "results": [
     {
       "bib": "1",
@@ -98,9 +98,9 @@
       "first_name": "Jerome",
       "last_name": "Spriggs",
       "category": "Men 60-64",
-      "finish_time": "23:23:46.517",
-      "result_time": "00:07:35.064",
-      "result_ms": 455064
+      "finish_time": "23:23:52.391",
+      "result_time": "00:07:40.938",
+      "result_ms": 460938
     }
   ]
 }
