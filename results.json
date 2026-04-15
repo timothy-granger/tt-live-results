@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:27:59.683206",
+  "updated_at": "2026-04-14T23:28:29.360505",
   "results": [
     {
       "bib": "1",
@@ -182,6 +182,15 @@
       "finish_time": "23:27:57.148",
       "result_time": "00:07:15.695",
       "result_ms": 435695
+    },
+    {
+      "bib": "21",
+      "first_name": "Rick",
+      "last_name": "Knowles",
+      "category": "Men 70-74",
+      "finish_time": "23:28:27.615",
+      "result_time": "00:07:16.162",
+      "result_ms": 436162
     }
   ]
 }
