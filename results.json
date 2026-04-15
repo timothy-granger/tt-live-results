@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:26:39.311636",
+  "updated_at": "2026-04-14T23:27:14.075287",
   "results": [
     {
       "bib": "1",
@@ -164,6 +164,15 @@
       "finish_time": "23:26:36.467",
       "result_time": "00:06:55.014",
       "result_ms": 415014
+    },
+    {
+      "bib": "19",
+      "first_name": "Robert",
+      "last_name": "Chambers",
+      "category": "Men 70-74",
+      "finish_time": "23:27:11.742",
+      "result_time": "00:07:00.289",
+      "result_ms": 420289
     }
   ]
 }
