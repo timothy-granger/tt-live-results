@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:35:02.668174",
+  "updated_at": "2026-04-14T23:35:08.429345",
   "results": [
     {
       "bib": "1",
@@ -299,6 +299,15 @@
       "finish_time": "23:35:00.377",
       "result_time": "00:07:48.924",
       "result_ms": 468924
+    },
+    {
+      "bib": "34",
+      "first_name": "Douglass",
+      "last_name": "Allen",
+      "category": "Men 85-89",
+      "finish_time": "23:35:07.399",
+      "result_time": "00:07:25.946",
+      "result_ms": 445946
     }
   ]
 }
