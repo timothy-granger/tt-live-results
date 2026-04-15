@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:37:35.492176",
+  "updated_at": "2026-04-14T23:37:52.883463",
   "results": [
     {
       "bib": "1",
@@ -353,6 +353,15 @@
       "finish_time": "23:37:33.019",
       "result_time": "00:07:21.566",
       "result_ms": 441566
+    },
+    {
+      "bib": "40",
+      "first_name": "Valerie",
+      "last_name": "Boughner",
+      "category": "Women 75-79",
+      "finish_time": "23:37:51.470",
+      "result_time": "00:07:10.017",
+      "result_ms": 430017
     }
   ]
 }
