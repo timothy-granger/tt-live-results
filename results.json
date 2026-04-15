@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:27:14.075287",
+  "updated_at": "2026-04-14T23:27:59.683206",
   "results": [
     {
       "bib": "1",
@@ -173,6 +173,15 @@
       "finish_time": "23:27:11.742",
       "result_time": "00:07:00.289",
       "result_ms": 420289
+    },
+    {
+      "bib": "20",
+      "first_name": "Michael",
+      "last_name": "Chritton",
+      "category": "Men 70-74",
+      "finish_time": "23:27:57.148",
+      "result_time": "00:07:15.695",
+      "result_ms": 435695
     }
   ]
 }
