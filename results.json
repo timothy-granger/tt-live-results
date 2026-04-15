@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:19:13.944996",
+  "updated_at": "2026-04-14T23:19:58.192556",
   "results": [
     {
       "bib": "1",
@@ -20,6 +20,15 @@
       "finish_time": "23:19:11.153",
       "result_time": "00:07:29.700",
       "result_ms": 449700
+    },
+    {
+      "bib": "3",
+      "first_name": "Robert",
+      "last_name": "Grissom",
+      "category": "Men 55-59",
+      "finish_time": "23:19:56.182",
+      "result_time": "00:07:44.729",
+      "result_ms": 464729
     }
   ]
 }
