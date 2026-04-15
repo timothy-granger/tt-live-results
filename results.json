@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:31:37.739330",
+  "updated_at": "2026-04-14T23:32:08.143218",
   "results": [
     {
       "bib": "1",
@@ -245,6 +245,15 @@
       "finish_time": "23:31:34.324",
       "result_time": "00:07:22.871",
       "result_ms": 442871
+    },
+    {
+      "bib": "28",
+      "first_name": "Rob",
+      "last_name": "Gerhardt",
+      "category": "Men 75-79",
+      "finish_time": "23:32:05.011",
+      "result_time": "00:07:23.558",
+      "result_ms": 443558
     }
   ]
 }
