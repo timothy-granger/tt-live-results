@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:35:08.429345",
+  "updated_at": "2026-04-14T23:35:52.573810",
   "results": [
     {
       "bib": "1",
@@ -308,6 +308,15 @@
       "finish_time": "23:35:07.399",
       "result_time": "00:07:25.946",
       "result_ms": 445946
+    },
+    {
+      "bib": "35",
+      "first_name": "Jennifer",
+      "last_name": "Nehrbauer",
+      "category": "Women 60-64",
+      "finish_time": "23:35:50.736",
+      "result_time": "00:07:39.283",
+      "result_ms": 459283
     }
   ]
 }
