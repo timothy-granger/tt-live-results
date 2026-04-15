@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:34:58.802929",
+  "updated_at": "2026-04-14T23:35:02.668174",
   "results": [
     {
       "bib": "1",
@@ -296,9 +296,9 @@
       "first_name": "Gary",
       "last_name": "Prince",
       "category": "Men 80-84",
-      "finish_time": "23:34:25.121",
-      "result_time": "00:07:13.668",
-      "result_ms": 433668
+      "finish_time": "23:35:00.377",
+      "result_time": "00:07:48.924",
+      "result_ms": 468924
     }
   ]
 }
