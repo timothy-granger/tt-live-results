@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:19:58.192556",
+  "updated_at": "2026-04-14T23:20:31.697221",
   "results": [
     {
       "bib": "1",
@@ -29,6 +29,15 @@
       "finish_time": "23:19:56.182",
       "result_time": "00:07:44.729",
       "result_ms": 464729
+    },
+    {
+      "bib": "4",
+      "first_name": "Bernhard",
+      "last_name": "Heulmanns",
+      "category": "Men 55-59",
+      "finish_time": "23:20:27.029",
+      "result_time": "00:07:45.576",
+      "result_ms": 465576
     }
   ]
 }
