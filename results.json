@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:26:14.245691",
+  "updated_at": "2026-04-14T23:26:39.311636",
   "results": [
     {
       "bib": "1",
@@ -155,6 +155,15 @@
       "finish_time": "23:26:11.622",
       "result_time": "00:07:00.169",
       "result_ms": 420169
+    },
+    {
+      "bib": "18",
+      "first_name": "Glenn",
+      "last_name": "Wilkinson",
+      "category": "Men 65-69",
+      "finish_time": "23:26:36.467",
+      "result_time": "00:06:55.014",
+      "result_ms": 415014
     }
   ]
 }
