@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:36:28.237594",
+  "updated_at": "2026-04-14T23:36:59.647220",
   "results": [
     {
       "bib": "1",
@@ -326,6 +326,15 @@
       "finish_time": "23:36:26.509",
       "result_time": "00:07:45.056",
       "result_ms": 465056
+    },
+    {
+      "bib": "37",
+      "first_name": "Kris",
+      "last_name": "Krystyniak",
+      "category": "Women 65-69",
+      "finish_time": "23:36:56.546",
+      "result_time": "00:07:45.093",
+      "result_ms": 465093
     }
   ]
 }
