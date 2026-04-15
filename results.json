@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-04-14T23:28:29.360505",
+  "updated_at": "2026-04-14T23:28:55.462026",
   "results": [
     {
       "bib": "1",
@@ -191,6 +191,15 @@
       "finish_time": "23:28:27.615",
       "result_time": "00:07:16.162",
       "result_ms": 436162
+    },
+    {
+      "bib": "22",
+      "first_name": "Alan",
+      "last_name": "Lesage",
+      "category": "Men 70-74",
+      "finish_time": "23:28:52.884",
+      "result_time": "00:07:11.431",
+      "result_ms": 431431
     }
   ]
 }
