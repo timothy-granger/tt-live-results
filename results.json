@@ -1,7 +1,7 @@
 {
   "race_name": "SC Senior Games \u2014 Cycling Time Trial",
   "event_info": "May 7, 2026",
-  "updated_at": "2026-05-03T20:17:20.981506",
+  "updated_at": "2026-05-03T20:20:09.748901",
   "results": [
     {
       "bib": "1",
@@ -65,6 +65,24 @@
       "finish_time": "20:16:38.369",
       "result_time": "00:15:25.952",
       "result_ms": 925952
+    },
+    {
+      "bib": "8",
+      "first_name": "Christopher",
+      "last_name": "Eason",
+      "category": "Men 60-64",
+      "finish_time": "20:19:31.259",
+      "result_time": "00:17:48.842",
+      "result_ms": 1068842
+    },
+    {
+      "bib": "9",
+      "first_name": "Bryant",
+      "last_name": "Hyatt",
+      "category": "Men 60-64",
+      "finish_time": "20:19:37.560",
+      "result_time": "00:17:25.143",
+      "result_ms": 1045143
     }
   ]
 }
