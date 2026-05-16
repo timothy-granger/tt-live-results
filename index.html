@@ -55,6 +55,7 @@
         }
 
         .status-bar .live-dot.offline { background: #666; animation: none; }
+        .status-bar .live-dot.startlist { background: #2196f3; }
 
         @keyframes pulse {
             0%, 100% { opacity: 1; }
@@ -149,6 +150,35 @@
             margin-left: 8px;
         }
 
+        .startlist-banner {
+            text-align: center;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #0d2137 0%, #1a3a5c 100%);
+            border-bottom: 1px solid #252540;
+            color: #64b5f6;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .startlist-banner .label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #4a90c4;
+            margin-bottom: 4px;
+        }
+
+        .bib-cell {
+            font-weight: 700;
+            color: #64b5f6;
+        }
+
+        .start-time-cell {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 14px;
+            color: #81c784;
+        }
+
         @media (max-width: 600px) {
             .header h1 { font-size: 20px; }
             table { font-size: 13px; }
@@ -169,7 +199,7 @@
             <span class="live-dot" id="liveDot"></span>
             <span id="statusText">Connecting...</span>
         </div>
-        <div id="lastUpdate">—</div>
+        <div id="lastUpdate">&mdash;</div>
     </div>
 
     <div class="tabs" id="tabs">
@@ -189,10 +219,12 @@
     <script>
     const REFRESH_INTERVAL = 15000; // 15 seconds
     const RESULTS_URL = 'results.json';
+    const STARTLIST_URL = 'startlist.json';
 
     let currentView = 'overall';
     let lastData = null;
     let lastFetchTime = null;
+    let displayMode = 'waiting'; // 'waiting', 'startlist', 'results'
 
     // Tab switching
     document.getElementById('tabs').addEventListener('click', (e) => {
@@ -200,7 +232,13 @@
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         e.target.classList.add('active');
         currentView = e.target.dataset.view;
-        if (lastData) render(lastData);
+        if (lastData) {
+            if (displayMode === 'startlist') {
+                renderStartList(lastData);
+            } else {
+                renderResults(lastData);
+            }
+        }
     });
 
     function placeClass(place) {
@@ -210,7 +248,72 @@
         return '';
     }
 
-    function render(data) {
+    function renderStartList(data) {
+        const container = document.getElementById('results');
+
+        document.getElementById('raceName').textContent = data.race_name || 'Start List';
+        document.getElementById('eventInfo').textContent = data.event_info || '';
+
+        if (!data.start_list || data.start_list.length === 0) {
+            container.innerHTML = `
+                <div class="no-results">
+                    <div class="waiting">&#128203;</div>
+                    Start list will be posted soon...
+                </div>`;
+            return;
+        }
+
+        const riders = data.start_list;
+        let html = '';
+
+        if (currentView === 'overall') {
+            // Show all riders in start order
+            html += `<div class="section-title">Start List <span class="finisher-count">${riders.length} riders</span></div>`;
+            html += `<table><thead><tr>
+                <th>Bib</th><th>Name</th><th>Category</th><th>Start Time</th>
+            </tr></thead><tbody>`;
+
+            riders.forEach(r => {
+                html += `<tr>
+                    <td class="bib-cell">${r.bib}</td>
+                    <td>${r.first_name} ${r.last_name}</td>
+                    <td>${r.category}</td>
+                    <td class="start-time-cell">${r.start_time}</td>
+                </tr>`;
+            });
+            html += '</tbody></table>';
+
+        } else {
+            // Group by category
+            const groups = {};
+            riders.forEach(r => {
+                if (!groups[r.category]) groups[r.category] = [];
+                groups[r.category].push(r);
+            });
+
+            const catNames = Object.keys(groups).sort();
+            catNames.forEach(cat => {
+                const catRiders = groups[cat].sort((a, b) => a.start_position - b.start_position);
+                html += `<div class="section-title">${cat} <span class="finisher-count">${catRiders.length}</span></div>`;
+                html += `<table><thead><tr>
+                    <th>Bib</th><th>Name</th><th>Start Time</th>
+                </tr></thead><tbody>`;
+
+                catRiders.forEach(r => {
+                    html += `<tr>
+                        <td class="bib-cell">${r.bib}</td>
+                        <td>${r.first_name} ${r.last_name}</td>
+                        <td class="start-time-cell">${r.start_time}</td>
+                    </tr>`;
+                });
+                html += '</tbody></table>';
+            });
+        }
+
+        container.innerHTML = html;
+    }
+
+    function renderResults(data) {
         const container = document.getElementById('results');
 
         // Header
@@ -221,7 +324,7 @@
             container.innerHTML = `
                 <div class="no-results">
                     <div class="waiting">&#9202;</div>
-                    Race in progress — waiting for finishers...
+                    Race in progress &mdash; waiting for finishers...
                 </div>`;
             return;
         }
@@ -278,36 +381,61 @@
         container.innerHTML = html;
     }
 
-    async function fetchResults() {
+    async function fetchData() {
         try {
-            const resp = await fetch(RESULTS_URL + '?t=' + Date.now());
-            if (!resp.ok) throw new Error('No results yet');
+            // Always check for results first — they take priority over start list
+            const resultsResp = await fetch(RESULTS_URL + '?t=' + Date.now());
+            if (resultsResp.ok) {
+                const resultsData = await resultsResp.json();
 
-            const data = await resp.json();
-            lastData = data;
-            lastFetchTime = new Date();
-            render(data);
+                // If results has actual finishers, show results mode
+                if (resultsData.results && resultsData.results.length > 0 && !resultsData.cleared) {
+                    lastData = resultsData;
+                    displayMode = 'results';
+                    lastFetchTime = new Date();
+                    renderResults(resultsData);
 
-            document.getElementById('liveDot').classList.remove('offline');
-            document.getElementById('statusText').textContent =
-                `Live — ${data.results ? data.results.length : 0} finishers`;
-
+                    document.getElementById('liveDot').className = 'live-dot';
+                    document.getElementById('statusText').textContent =
+                        `Live \u2014 ${resultsData.results.length} finishers`;
+                    return;
+                }
+            }
         } catch (e) {
-            document.getElementById('liveDot').classList.add('offline');
-            document.getElementById('statusText').textContent = 'Waiting for results...';
+            // results.json not found or error — that's fine, check start list
         }
 
-        // Update "last checked" time
-        if (lastFetchTime) {
-            const ago = Math.round((Date.now() - lastFetchTime.getTime()) / 1000);
-            document.getElementById('lastUpdate').textContent =
-                ago < 5 ? 'Just now' : `Checked ${ago}s ago`;
+        try {
+            // No active results — check for a published start list
+            const startResp = await fetch(STARTLIST_URL + '?t=' + Date.now());
+            if (startResp.ok) {
+                const startData = await startResp.json();
+
+                if (startData.start_list && startData.start_list.length > 0) {
+                    lastData = startData;
+                    displayMode = 'startlist';
+                    lastFetchTime = new Date();
+                    renderStartList(startData);
+
+                    document.getElementById('liveDot').className = 'live-dot startlist';
+                    document.getElementById('statusText').textContent =
+                        `Start List Posted \u2014 ${startData.start_list.length} riders`;
+                    return;
+                }
+            }
+        } catch (e) {
+            // No start list either
         }
+
+        // Nothing available
+        displayMode = 'waiting';
+        document.getElementById('liveDot').className = 'live-dot offline';
+        document.getElementById('statusText').textContent = 'Waiting for start list...';
     }
 
     // Initial fetch + periodic refresh
-    fetchResults();
-    setInterval(fetchResults, REFRESH_INTERVAL);
+    fetchData();
+    setInterval(fetchData, REFRESH_INTERVAL);
 
     // Update the "ago" counter every second
     setInterval(() => {
