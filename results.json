@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:30:34.547334",
+  "updated_at": "2026-05-28T18:31:42.222591",
   "results": [
     {
       "bib": "2",
@@ -29,6 +29,15 @@
       "finish_time": "18:29:58.856",
       "result_time": "00:26:58.842",
       "result_ms": 1618842
+    },
+    {
+      "bib": "8",
+      "first_name": "Lucas",
+      "last_name": "Campbell",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:31:08.222",
+      "result_time": "00:27:08.208",
+      "result_ms": 1628208
     }
   ]
 }
