@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:49:39.370350",
+  "updated_at": "2026-05-28T18:52:35.597286",
   "results": [
     {
       "bib": "2",
@@ -94,6 +94,15 @@
       "result_ms": 1548074
     },
     {
+      "bib": "16",
+      "first_name": "Glynn",
+      "last_name": "Clements",
+      "category": "Masters 70+ - Men",
+      "finish_time": "18:51:45.570",
+      "result_time": "00:33:15.556",
+      "result_ms": 1995556
+    },
+    {
       "bib": "18",
       "first_name": "Kayla",
       "last_name": "Rector",
@@ -119,6 +128,15 @@
       "finish_time": "18:45:52.032",
       "result_time": "00:25:22.018",
       "result_ms": 1522018
+    },
+    {
+      "bib": "21",
+      "first_name": "Colin",
+      "last_name": "Mathern",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:52:01.284",
+      "result_time": "00:21:31.270",
+      "result_ms": 1291270
     }
   ]
 }
