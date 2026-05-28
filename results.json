@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:43:52.596923",
+  "updated_at": "2026-05-28T18:45:16.531193",
   "results": [
     {
       "bib": "2",
@@ -83,6 +83,15 @@
       "finish_time": "18:43:18.088",
       "result_time": "00:25:48.074",
       "result_ms": 1548074
+    },
+    {
+      "bib": "19",
+      "first_name": "Neil",
+      "last_name": "Tabor",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:44:40.166",
+      "result_time": "00:24:40.152",
+      "result_ms": 1480152
     }
   ]
 }
