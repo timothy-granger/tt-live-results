@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:31:42.222591",
+  "updated_at": "2026-05-28T18:34:42.088239",
   "results": [
     {
       "bib": "2",
@@ -11,6 +11,15 @@
       "finish_time": "18:26:08.747",
       "result_time": "00:25:08.733",
       "result_ms": 1508733
+    },
+    {
+      "bib": "3",
+      "first_name": "Chip",
+      "last_name": "Palmer",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:33:53.698",
+      "result_time": "00:32:23.684",
+      "result_ms": 1943684
     },
     {
       "bib": "4",
@@ -38,6 +47,15 @@
       "finish_time": "18:31:08.222",
       "result_time": "00:27:08.208",
       "result_ms": 1628208
+    },
+    {
+      "bib": "9",
+      "first_name": "Randy",
+      "last_name": "Tyner",
+      "category": "Masters 50+ - Men",
+      "finish_time": "18:34:08.745",
+      "result_time": "00:29:38.731",
+      "result_ms": 1778731
     }
   ]
 }
