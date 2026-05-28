@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:53:30.801771",
+  "updated_at": "2026-05-28T18:56:14.626822",
   "results": [
     {
       "bib": "2",
@@ -137,6 +137,15 @@
       "finish_time": "18:52:56.139",
       "result_time": "00:29:56.125",
       "result_ms": 1796125
+    },
+    {
+      "bib": "7",
+      "first_name": "Byron",
+      "last_name": "Meinerth",
+      "category": "Merckx - Men",
+      "finish_time": "18:55:40.821",
+      "result_time": "00:28:40.807",
+      "result_ms": 1720807
     },
     {
       "bib": "21",
