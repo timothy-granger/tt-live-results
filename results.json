@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:47:52.385914",
+  "updated_at": "2026-05-28T18:49:39.370350",
   "results": [
     {
       "bib": "2",
@@ -76,6 +76,15 @@
       "result_ms": 1412873
     },
     {
+      "bib": "11",
+      "first_name": "Michelle",
+      "last_name": "Edwards",
+      "category": "Masters 60+ - Women",
+      "finish_time": "18:49:05.877",
+      "result_time": "00:33:05.863",
+      "result_ms": 1985863
+    },
+    {
       "bib": "14",
       "first_name": "Clint",
       "last_name": "Swofford",
@@ -83,6 +92,15 @@
       "finish_time": "18:43:18.088",
       "result_time": "00:25:48.074",
       "result_ms": 1548074
+    },
+    {
+      "bib": "18",
+      "first_name": "Kayla",
+      "last_name": "Rector",
+      "category": "Women (4/U)",
+      "finish_time": "18:48:47.783",
+      "result_time": "00:29:17.769",
+      "result_ms": 1757769
     },
     {
       "bib": "19",
