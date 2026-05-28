@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T19:01:01.941945",
+  "updated_at": "2026-05-28T19:07:11.058808",
   "results": [
     {
       "bib": "2",
@@ -164,6 +164,15 @@
       "finish_time": "19:00:21.850",
       "result_time": "00:29:21.836",
       "result_ms": 1761836
+    },
+    {
+      "bib": "24",
+      "first_name": "Boyd",
+      "last_name": "Owens",
+      "category": "Merckx - Men",
+      "finish_time": "19:06:34.883",
+      "result_time": "00:34:34.869",
+      "result_ms": 2074869
     }
   ]
 }
