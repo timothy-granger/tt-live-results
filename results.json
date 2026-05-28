@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:29:22.627875",
+  "updated_at": "2026-05-28T18:30:34.547334",
   "results": [
     {
       "bib": "2",
@@ -20,6 +20,15 @@
       "finish_time": "18:28:47.263",
       "result_time": "00:26:47.249",
       "result_ms": 1607249
+    },
+    {
+      "bib": "6",
+      "first_name": "Weston",
+      "last_name": "Studer",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:29:58.856",
+      "result_time": "00:26:58.842",
+      "result_ms": 1618842
     }
   ]
 }
