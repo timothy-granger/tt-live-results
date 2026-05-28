@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T15:30:57.919623",
+  "updated_at": "2026-05-28T17:10:55.115386",
   "start_list": [
     {
       "bib": "1",
@@ -157,6 +157,14 @@
     },
     {
       "bib": "20",
+      "first_name": "Samuel",
+      "last_name": "SHIMANSKIY",
+      "category": "Merckx - Men",
+      "start_time": "6:20:30 PM",
+      "start_position": 20.5
+    },
+    {
+      "bib": "21",
       "first_name": "Colin",
       "last_name": "Mathern",
       "category": "Men (P/1/2/3)",
@@ -164,7 +172,7 @@
       "start_position": 30.5
     },
     {
-      "bib": "21",
+      "bib": "22",
       "first_name": "Tara",
       "last_name": "Miller",
       "category": "Merckx - Women",
@@ -172,7 +180,7 @@
       "start_position": 31.0
     },
     {
-      "bib": "22",
+      "bib": "23",
       "first_name": "Amanda",
       "last_name": "Pospischil",
       "category": "Women (4/U)",
@@ -180,7 +188,7 @@
       "start_position": 31.5
     },
     {
-      "bib": "23",
+      "bib": "24",
       "first_name": "Boyd",
       "last_name": "Owens",
       "category": "Masters 50+ - Men",
