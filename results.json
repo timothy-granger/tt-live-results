@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "May 28, 2026",
-  "updated_at": "2026-05-28T18:45:16.531193",
+  "updated_at": "2026-05-28T18:47:52.385914",
   "results": [
     {
       "bib": "2",
@@ -92,6 +92,15 @@
       "finish_time": "18:44:40.166",
       "result_time": "00:24:40.152",
       "result_ms": 1480152
+    },
+    {
+      "bib": "20",
+      "first_name": "Samuel",
+      "last_name": "SHIMANSKIY",
+      "category": "Merckx - Men",
+      "finish_time": "18:45:52.032",
+      "result_time": "00:25:22.018",
+      "result_ms": 1522018
     }
   ]
 }
