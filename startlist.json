@@ -1,0 +1,192 @@
+{
+  "race_name": "2026 Time Trial Series",
+  "event_info": "May 28, 2026",
+  "updated_at": "2026-05-28T15:30:57.919623",
+  "start_list": [
+    {
+      "bib": "1",
+      "first_name": "Bill",
+      "last_name": "Radler",
+      "category": "Masters 60+ - Men",
+      "start_time": "6:00:30 PM",
+      "start_position": 0.5
+    },
+    {
+      "bib": "2",
+      "first_name": "Nathan",
+      "last_name": "Race",
+      "category": "Merckx - Men",
+      "start_time": "6:01 PM",
+      "start_position": 1.0
+    },
+    {
+      "bib": "3",
+      "first_name": "Chip",
+      "last_name": "Palmer",
+      "category": "Masters 60+ - Men",
+      "start_time": "6:01:30 PM",
+      "start_position": 1.5
+    },
+    {
+      "bib": "4",
+      "first_name": "David",
+      "last_name": "Hoenicke",
+      "category": "Masters 50+ - Men",
+      "start_time": "6:02 PM",
+      "start_position": 2.0
+    },
+    {
+      "bib": "5",
+      "first_name": "Jay",
+      "last_name": "Patel",
+      "category": "Merckx - Men",
+      "start_time": "6:02:30 PM",
+      "start_position": 2.5
+    },
+    {
+      "bib": "6",
+      "first_name": "Weston",
+      "last_name": "Studer",
+      "category": "Men (4/5/U)",
+      "start_time": "6:03 PM",
+      "start_position": 3.0
+    },
+    {
+      "bib": "7",
+      "first_name": "Byron",
+      "last_name": "Meinerth",
+      "category": "Merckx - Men",
+      "start_time": "6:03:30 PM",
+      "start_position": 3.5
+    },
+    {
+      "bib": "8",
+      "first_name": "Lucas",
+      "last_name": "Campbell",
+      "category": "Men (4/5/U)",
+      "start_time": "6:04 PM",
+      "start_position": 4.0
+    },
+    {
+      "bib": "9",
+      "first_name": "Randy",
+      "last_name": "Tyner",
+      "category": "Masters 50+ - Men",
+      "start_time": "6:04:30 PM",
+      "start_position": 4.5
+    },
+    {
+      "bib": "10",
+      "first_name": "James",
+      "last_name": "Martin",
+      "category": "Masters 60+ - Men",
+      "start_time": "6:15:30 PM",
+      "start_position": 15.5
+    },
+    {
+      "bib": "11",
+      "first_name": "Michelle",
+      "last_name": "Edwards",
+      "category": "Masters 60+ - Women",
+      "start_time": "6:16 PM",
+      "start_position": 16.0
+    },
+    {
+      "bib": "12",
+      "first_name": "Mike",
+      "last_name": "Askew",
+      "category": "Masters 60+ - Men",
+      "start_time": "6:16:30 PM",
+      "start_position": 16.5
+    },
+    {
+      "bib": "13",
+      "first_name": "Reggie",
+      "last_name": "Frye",
+      "category": "Masters 50+ - Men",
+      "start_time": "6:17 PM",
+      "start_position": 17.0
+    },
+    {
+      "bib": "14",
+      "first_name": "Clint",
+      "last_name": "Swofford",
+      "category": "Men (4/5/U)",
+      "start_time": "6:17:30 PM",
+      "start_position": 17.5
+    },
+    {
+      "bib": "15",
+      "first_name": "David",
+      "last_name": "Dixon",
+      "category": "Masters 60+ - Men",
+      "start_time": "6:18 PM",
+      "start_position": 18.0
+    },
+    {
+      "bib": "16",
+      "first_name": "Glynn",
+      "last_name": "Clements",
+      "category": "Masters 70+ - Men",
+      "start_time": "6:18:30 PM",
+      "start_position": 18.5
+    },
+    {
+      "bib": "17",
+      "first_name": "Mark",
+      "last_name": "Alkire",
+      "category": "Masters 50+ - Men",
+      "start_time": "6:19 PM",
+      "start_position": 19.0
+    },
+    {
+      "bib": "18",
+      "first_name": "Kayla",
+      "last_name": "Rector",
+      "category": "Women (4/U)",
+      "start_time": "6:19:30 PM",
+      "start_position": 19.5
+    },
+    {
+      "bib": "19",
+      "first_name": "Neil",
+      "last_name": "Tabor",
+      "category": "Men (4/5/U)",
+      "start_time": "6:20 PM",
+      "start_position": 20.0
+    },
+    {
+      "bib": "20",
+      "first_name": "Colin",
+      "last_name": "Mathern",
+      "category": "Men (P/1/2/3)",
+      "start_time": "6:30:30 PM",
+      "start_position": 30.5
+    },
+    {
+      "bib": "21",
+      "first_name": "Tara",
+      "last_name": "Miller",
+      "category": "Merckx - Women",
+      "start_time": "6:31 PM",
+      "start_position": 31.0
+    },
+    {
+      "bib": "22",
+      "first_name": "Amanda",
+      "last_name": "Pospischil",
+      "category": "Women (4/U)",
+      "start_time": "6:31:30 PM",
+      "start_position": 31.5
+    },
+    {
+      "bib": "23",
+      "first_name": "Boyd",
+      "last_name": "Owens",
+      "category": "Masters 50+ - Men",
+      "start_time": "6:32 PM",
+      "start_position": 32.0
+    }
+  ],
+  "emergency_contacts": {}
+}
