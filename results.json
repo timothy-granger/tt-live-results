@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:28:47.610302",
+  "updated_at": "2026-06-25T18:30:06.463570",
   "results": [
     {
       "bib": "31",
@@ -11,6 +11,15 @@
       "finish_time": "18:28:12.734",
       "result_time": "00:26:12.874",
       "result_ms": 1572874
+    },
+    {
+      "bib": "32",
+      "first_name": "David",
+      "last_name": "Hoenicke",
+      "category": "Masters 50+ - Men",
+      "finish_time": "18:29:32.022",
+      "result_time": "00:26:32.162",
+      "result_ms": 1592162
     }
   ]
 }
