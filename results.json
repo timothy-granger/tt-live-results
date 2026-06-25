@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:30:06.463570",
+  "updated_at": "2026-06-25T18:30:49.817727",
   "results": [
     {
       "bib": "31",
@@ -20,6 +20,15 @@
       "finish_time": "18:29:32.022",
       "result_time": "00:26:32.162",
       "result_ms": 1592162
+    },
+    {
+      "bib": "34",
+      "first_name": "Brock",
+      "last_name": "Helms",
+      "category": "Merckx - Men",
+      "finish_time": "18:30:10.663",
+      "result_time": "00:25:10.803",
+      "result_ms": 1510803
     }
   ]
 }
