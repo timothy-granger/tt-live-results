@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:41:41.688578",
+  "updated_at": "2026-06-25T18:43:17.678814",
   "results": [
     {
       "bib": "31",
@@ -29,6 +29,15 @@
       "finish_time": "18:30:10.663",
       "result_time": "00:25:10.803",
       "result_ms": 1510803
+    },
+    {
+      "bib": "35",
+      "first_name": "Anna",
+      "last_name": "Tabor",
+      "category": "Juniors (F)",
+      "finish_time": "18:42:43.539",
+      "result_time": "00:36:43.679",
+      "result_ms": 2203679
     },
     {
       "bib": "37",
