@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:36:53.349452",
+  "updated_at": "2026-06-25T18:40:10.157853",
   "results": [
     {
       "bib": "31",
@@ -38,6 +38,15 @@
       "finish_time": "18:36:18.375",
       "result_time": "00:28:18.515",
       "result_ms": 1698515
+    },
+    {
+      "bib": "45",
+      "first_name": "James",
+      "last_name": "Martin",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:39:34.895",
+      "result_time": "00:23:35.035",
+      "result_ms": 1415035
     }
   ]
 }
