@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:30:49.817727",
+  "updated_at": "2026-06-25T18:36:53.349452",
   "results": [
     {
       "bib": "31",
@@ -29,6 +29,15 @@
       "finish_time": "18:30:10.663",
       "result_time": "00:25:10.803",
       "result_ms": 1510803
+    },
+    {
+      "bib": "37",
+      "first_name": "Kayla",
+      "last_name": "Rector",
+      "category": "Women (4/U)",
+      "finish_time": "18:36:18.375",
+      "result_time": "00:28:18.515",
+      "result_ms": 1698515
     }
   ]
 }
