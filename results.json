@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T18:43:17.678814",
+  "updated_at": "2026-06-25T18:45:34.220061",
   "results": [
     {
       "bib": "31",
@@ -74,6 +74,15 @@
       "finish_time": "18:41:06.784",
       "result_time": "00:23:06.924",
       "result_ms": 1386924
+    },
+    {
+      "bib": "51",
+      "first_name": "Marcus",
+      "last_name": "Jones",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:44:58.311",
+      "result_time": "00:22:58.451",
+      "result_ms": 1378451
     }
   ]
 }
