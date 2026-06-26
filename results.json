@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T19:35:35.393385",
+  "updated_at": "2026-06-25T22:13:08.964767",
   "results": [
     {
       "bib": "31",
@@ -31,33 +31,6 @@
       "result_ms": 1510803
     },
     {
-      "bib": "45",
-      "first_name": "James",
-      "last_name": "Martin",
-      "category": "Masters 60+ - Men",
-      "finish_time": "18:39:34.895",
-      "result_time": "00:23:35.035",
-      "result_ms": 1415035
-    },
-    {
-      "bib": "38",
-      "first_name": "Glynn",
-      "last_name": "Clements",
-      "category": "Masters 70+ - Men",
-      "finish_time": "18:40:54.613",
-      "result_time": "00:31:54.753",
-      "result_ms": 1914753
-    },
-    {
-      "bib": "47",
-      "first_name": "Tyler",
-      "last_name": "Clem",
-      "category": "Men (P/1/2/3)",
-      "finish_time": "18:41:06.784",
-      "result_time": "00:23:06.924",
-      "result_ms": 1386924
-    },
-    {
       "bib": "35",
       "first_name": "Anna",
       "last_name": "Tabor",
@@ -65,33 +38,6 @@
       "finish_time": "18:42:43.539",
       "result_time": "00:36:43.679",
       "result_ms": 2203679
-    },
-    {
-      "bib": "51",
-      "first_name": "Marcus",
-      "last_name": "Jones",
-      "category": "Men (P/1/2/3)",
-      "finish_time": "18:44:58.311",
-      "result_time": "00:22:58.451",
-      "result_ms": 1378451
-    },
-    {
-      "bib": "49",
-      "first_name": "Clint",
-      "last_name": "Swofford",
-      "category": "Men (4/5/U)",
-      "finish_time": "18:45:34.520",
-      "result_time": "00:25:34.660",
-      "result_ms": 1534660
-    },
-    {
-      "bib": "46",
-      "first_name": "Mike",
-      "last_name": "Askew",
-      "category": "Masters 60+ - Men",
-      "finish_time": "18:46:09.374",
-      "result_time": "00:29:09.514",
-      "result_ms": 1749514
     },
     {
       "bib": "36",
@@ -103,13 +49,49 @@
       "result_ms": 2520898
     },
     {
-      "bib": "50",
-      "first_name": "Kevin",
-      "last_name": "Parker",
+      "bib": "37",
+      "first_name": "Kayla",
+      "last_name": "Rector",
+      "category": "Women (4/U)",
+      "finish_time": "18:36:18.375",
+      "result_time": "00:28:18.515",
+      "result_ms": 1698515
+    },
+    {
+      "bib": "38",
+      "first_name": "Glynn",
+      "last_name": "Clements",
+      "category": "Masters 70+ - Men",
+      "finish_time": "18:40:54.613",
+      "result_time": "00:31:54.753",
+      "result_ms": 1914753
+    },
+    {
+      "bib": "45",
+      "first_name": "James",
+      "last_name": "Martin",
       "category": "Masters 60+ - Men",
-      "finish_time": "18:49:28.232",
-      "result_time": "00:28:28.372",
-      "result_ms": 1708372
+      "finish_time": "18:39:34.895",
+      "result_time": "00:23:35.035",
+      "result_ms": 1415035
+    },
+    {
+      "bib": "46",
+      "first_name": "Mike",
+      "last_name": "Askew",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:46:09.374",
+      "result_time": "00:29:09.514",
+      "result_ms": 1749514
+    },
+    {
+      "bib": "47",
+      "first_name": "Tyler",
+      "last_name": "Clem",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:41:06.784",
+      "result_time": "00:23:06.924",
+      "result_ms": 1386924
     },
     {
       "bib": "48",
@@ -121,6 +103,33 @@
       "result_ms": 1987757
     },
     {
+      "bib": "49",
+      "first_name": "Clint",
+      "last_name": "Swofford",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:45:34.520",
+      "result_time": "00:25:34.660",
+      "result_ms": 1534660
+    },
+    {
+      "bib": "50",
+      "first_name": "Kevin",
+      "last_name": "Parker",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:49:28.232",
+      "result_time": "00:28:28.372",
+      "result_ms": 1708372
+    },
+    {
+      "bib": "51",
+      "first_name": "Marcus",
+      "last_name": "Jones",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:44:58.311",
+      "result_time": "00:22:58.451",
+      "result_ms": 1378451
+    },
+    {
       "bib": "59",
       "first_name": "Coleman",
       "last_name": "Hunt",
@@ -128,33 +137,6 @@
       "finish_time": "18:52:25.192",
       "result_time": "00:22:25.332",
       "result_ms": 1345332
-    },
-    {
-      "bib": "61",
-      "first_name": "Colin",
-      "last_name": "Mathern",
-      "category": "Men (P/1/2/3)",
-      "finish_time": "18:53:41.083",
-      "result_time": "00:21:41.223",
-      "result_ms": 1301223
-    },
-    {
-      "bib": "63",
-      "first_name": "Michael",
-      "last_name": "Mauhar",
-      "category": "Men (P/1/2/3)",
-      "finish_time": "18:56:37.302",
-      "result_time": "00:22:37.442",
-      "result_ms": 1357442
-    },
-    {
-      "bib": "62",
-      "first_name": "Matthew",
-      "last_name": "Mauhar",
-      "category": "Merckx - Men",
-      "finish_time": "18:57:49.758",
-      "result_time": "00:24:49.898",
-      "result_ms": 1489898
     },
     {
       "bib": "60",
@@ -166,13 +148,31 @@
       "result_ms": 1707348
     },
     {
-      "bib": "66",
-      "first_name": "Dave",
-      "last_name": "McQuaid",
-      "category": "Masters 50+ - Men",
-      "finish_time": "19:05:36.186",
-      "result_time": "00:28:36.326",
-      "result_ms": 1716326
+      "bib": "61",
+      "first_name": "Colin",
+      "last_name": "Mathern",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:53:41.083",
+      "result_time": "00:21:41.223",
+      "result_ms": 1301223
+    },
+    {
+      "bib": "62",
+      "first_name": "Matthew",
+      "last_name": "Mauhar",
+      "category": "Merckx - Men",
+      "finish_time": "18:57:49.758",
+      "result_time": "00:24:49.898",
+      "result_ms": 1489898
+    },
+    {
+      "bib": "63",
+      "first_name": "Michael",
+      "last_name": "Mauhar",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:56:37.302",
+      "result_time": "00:22:37.442",
+      "result_ms": 1357442
     },
     {
       "bib": "64",
@@ -182,6 +182,15 @@
       "finish_time": "19:06:56.541",
       "result_time": "00:31:56.681",
       "result_ms": 1916681
+    },
+    {
+      "bib": "66",
+      "first_name": "Dave",
+      "last_name": "McQuaid",
+      "category": "Masters 50+ - Men",
+      "finish_time": "19:05:36.186",
+      "result_time": "00:28:36.326",
+      "result_ms": 1716326
     }
   ]
 }
