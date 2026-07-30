@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T19:02:01.065219",
+  "updated_at": "2026-07-30T19:02:45.733292",
   "results": [
     {
       "bib": "70",
@@ -103,6 +103,15 @@
       "result_ms": 1564587
     },
     {
+      "bib": "26",
+      "first_name": "Ethan",
+      "last_name": "Thompson",
+      "category": "Merckx - Men",
+      "finish_time": "19:01:56.463",
+      "result_time": "00:28:58.546",
+      "result_ms": 1738546
+    },
+    {
       "bib": "27",
       "first_name": "Daniel",
       "last_name": "Leedy",
@@ -119,6 +128,15 @@
       "finish_time": "18:57:19.000",
       "result_time": "00:21:21.083",
       "result_ms": 1281083
+    },
+    {
+      "bib": "30",
+      "first_name": "Matthew",
+      "last_name": "Mauhar",
+      "category": "Merckx - Men",
+      "finish_time": "19:02:01.548",
+      "result_time": "00:24:03.631",
+      "result_ms": 1443631
     }
   ]
 }
