@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:58:36.665581",
+  "updated_at": "2026-07-30T19:02:01.065219",
   "results": [
     {
       "bib": "70",
@@ -101,6 +101,15 @@
       "finish_time": "18:58:02.504",
       "result_time": "00:26:04.587",
       "result_ms": 1564587
+    },
+    {
+      "bib": "27",
+      "first_name": "Daniel",
+      "last_name": "Leedy",
+      "category": "Merckx - Men",
+      "finish_time": "19:01:21.390",
+      "result_time": "00:27:23.473",
+      "result_ms": 1643473
     },
     {
       "bib": "1",
