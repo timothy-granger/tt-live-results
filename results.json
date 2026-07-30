@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:25:06.773321",
+  "updated_at": "2026-07-30T18:32:13.759920",
   "results": [
     {
       "bib": "72",
@@ -11,6 +11,15 @@
       "finish_time": "18:24:26.150",
       "result_time": "00:21:28.233",
       "result_ms": 1288233
+    },
+    {
+      "bib": "73",
+      "first_name": "Jerry",
+      "last_name": "Brown",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:31:32.040",
+      "result_time": "00:27:34.123",
+      "result_ms": 1654123
     }
   ]
 }
