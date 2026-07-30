@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T19:02:45.733292",
+  "updated_at": "2026-07-30T19:05:38.794571",
   "results": [
     {
       "bib": "70",
@@ -119,6 +119,15 @@
       "finish_time": "19:01:21.390",
       "result_time": "00:27:23.473",
       "result_ms": 1643473
+    },
+    {
+      "bib": "28",
+      "first_name": "Christopher",
+      "last_name": "Octa",
+      "category": "Men (4/5/U)",
+      "finish_time": "19:05:03.000",
+      "result_time": "00:30:05.083",
+      "result_ms": 1805083
     },
     {
       "bib": "1",
