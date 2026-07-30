@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:34:33.767652",
+  "updated_at": "2026-07-30T18:44:28.710979",
   "results": [
     {
       "bib": "70",
@@ -38,6 +38,24 @@
       "finish_time": "18:32:28.824",
       "result_time": "00:27:30.907",
       "result_ms": 1650907
+    },
+    {
+      "bib": "88",
+      "first_name": "Bill",
+      "last_name": "Radler",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:43:54.117",
+      "result_time": "00:24:56.200",
+      "result_ms": 1496200
+    },
+    {
+      "bib": "89",
+      "first_name": "James",
+      "last_name": "Martin",
+      "category": "Masters 60+ - Men",
+      "finish_time": "18:43:24.861",
+      "result_time": "00:23:26.944",
+      "result_ms": 1406944
     }
   ]
 }
