@@ -1,175 +1,143 @@
 {
   "race_name": "2026 Time Trial Series",
-  "event_info": "June 25, 2026",
-  "updated_at": "2026-06-25T15:54:26.922243",
+  "event_info": "July 30, 2026",
+  "updated_at": "2026-07-30T12:26:26.415073",
   "start_list": [
     {
-      "bib": "30",
-      "first_name": "Sammy",
-      "last_name": "Clary",
-      "category": "Merckx - Men",
+      "bib": "70",
+      "first_name": "Chris",
+      "last_name": "Hartzler",
+      "category": "Men (4/5/U)",
       "start_time": "6:01 PM",
       "start_position": 1.0
     },
     {
-      "bib": "31",
-      "first_name": "Weston",
-      "last_name": "Studer",
-      "category": "Men (4/5/U)",
-      "start_time": "6:02 PM",
-      "start_position": 2.0
-    },
-    {
-      "bib": "32",
-      "first_name": "David",
-      "last_name": "Hoenicke",
-      "category": "Masters 50+ - Men",
+      "bib": "72",
+      "first_name": "Chris",
+      "last_name": "Olson",
+      "category": "Men (P/1/2/3)",
       "start_time": "6:03 PM",
       "start_position": 3.0
     },
     {
-      "bib": "33",
-      "first_name": "Robert",
-      "last_name": "Pospischil",
-      "category": "Masters 70+ - Men",
+      "bib": "73",
+      "first_name": "Jerry",
+      "last_name": "Brown",
+      "category": "Men (4/5/U)",
       "start_time": "6:04 PM",
       "start_position": 4.0
     },
     {
-      "bib": "34",
-      "first_name": "Brock",
-      "last_name": "Helms",
-      "category": "Merckx - Men",
+      "bib": "74",
+      "first_name": "Kayla",
+      "last_name": "Rector",
+      "category": "Women (4/U)",
       "start_time": "6:05 PM",
       "start_position": 5.0
     },
     {
-      "bib": "35",
-      "first_name": "Anna",
-      "last_name": "Tabor",
-      "category": "Juniors (F)",
-      "start_time": "6:06 PM",
-      "start_position": 6.0
-    },
-    {
-      "bib": "36",
-      "first_name": "Brooke",
-      "last_name": "Tabor",
-      "category": "Juniors (F)",
-      "start_time": "6:07 PM",
-      "start_position": 7.0
-    },
-    {
-      "bib": "37",
-      "first_name": "Kayla",
-      "last_name": "Rector",
-      "category": "Women (4/U)",
-      "start_time": "6:08 PM",
-      "start_position": 8.0
-    },
-    {
-      "bib": "45",
-      "first_name": "James",
-      "last_name": "Martin",
-      "category": "Masters 60+ - Men",
+      "bib": "85",
+      "first_name": "Marcus",
+      "last_name": "Jones",
+      "category": "Men (P/1/2/3)",
       "start_time": "6:16 PM",
       "start_position": 16.0
     },
     {
-      "bib": "46",
-      "first_name": "Mike",
-      "last_name": "Askew",
-      "category": "Masters 60+ - Men",
+      "bib": "86",
+      "first_name": "Michelle",
+      "last_name": "Edwards",
+      "category": "Masters 60+ - Women",
       "start_time": "6:17 PM",
       "start_position": 17.0
     },
     {
-      "bib": "47",
-      "first_name": "Tyler",
-      "last_name": "Clem",
-      "category": "Men (P/1/2/3)",
+      "bib": "87",
+      "first_name": "Wesley",
+      "last_name": "Baker",
+      "category": "Men (4/5/U)",
       "start_time": "6:18 PM",
       "start_position": 18.0
     },
     {
-      "bib": "48",
-      "first_name": "Michelle",
-      "last_name": "Edwards",
-      "category": "Masters 60+ - Women",
+      "bib": "88",
+      "first_name": "Bill",
+      "last_name": "Radler",
+      "category": "Masters 60+ - Men",
       "start_time": "6:19 PM",
       "start_position": 19.0
     },
     {
-      "bib": "49",
-      "first_name": "Clint",
-      "last_name": "Swofford",
-      "category": "Men (4/5/U)",
+      "bib": "89",
+      "first_name": "James",
+      "last_name": "Martin",
+      "category": "Masters 60+ - Men",
       "start_time": "6:20 PM",
       "start_position": 20.0
     },
     {
-      "bib": "50",
-      "first_name": "Kevin",
-      "last_name": "Parker",
-      "category": "Masters 60+ - Men",
-      "start_time": "6:21 PM",
-      "start_position": 21.0
-    },
-    {
-      "bib": "60",
-      "first_name": "Reggie",
-      "last_name": "Frye",
-      "category": "Masters 50+ - Men",
+      "bib": "100",
+      "first_name": "Tyler",
+      "last_name": "Clem",
+      "category": "Men (P/1/2/3)",
       "start_time": "6:31 PM",
       "start_position": 31.0
     },
     {
-      "bib": "61",
-      "first_name": "Colin",
-      "last_name": "Mathern",
-      "category": "Men (P/1/2/3)",
+      "bib": "25",
+      "first_name": "Jonathan",
+      "last_name": "Pait",
+      "category": "Merckx - Men",
       "start_time": "6:32 PM",
       "start_position": 32.0
     },
     {
-      "bib": "62",
-      "first_name": "Matthew",
-      "last_name": "Mauhar",
+      "bib": "26",
+      "first_name": "Ethan",
+      "last_name": "Thompson",
       "category": "Merckx - Men",
       "start_time": "6:33 PM",
       "start_position": 33.0
     },
     {
-      "bib": "63",
-      "first_name": "Michael",
-      "last_name": "Mauhar",
-      "category": "Men (P/1/2/3)",
+      "bib": "27",
+      "first_name": "Daniel",
+      "last_name": "Leedy",
+      "category": "Merckx - Men",
       "start_time": "6:34 PM",
       "start_position": 34.0
     },
     {
-      "bib": "64",
-      "first_name": "Amanda",
-      "last_name": "Pospischil",
-      "category": "Women (4/U)",
+      "bib": "28",
+      "first_name": "Christopher",
+      "last_name": "Octa",
+      "category": "Men (4/5/U)",
       "start_time": "6:35 PM",
       "start_position": 35.0
     },
     {
-      "bib": "65",
-      "first_name": "Chris",
-      "last_name": "Olson",
-      "category": "Masters 50+ - Men",
+      "bib": "1",
+      "first_name": "Colin",
+      "last_name": "Mathern",
+      "category": "Men (P/1/2/3)",
       "start_time": "6:36 PM",
       "start_position": 36.0
     },
     {
-      "bib": "66",
-      "first_name": "Dave",
-      "last_name": "McQuaid",
-      "category": "Masters 50+ - Men",
+      "bib": "29",
+      "first_name": "Grant",
+      "last_name": "Hiriak",
+      "category": "Men (4/5/U)",
       "start_time": "6:37 PM",
       "start_position": 37.0
+    },
+    {
+      "bib": "30",
+      "first_name": "Matthew",
+      "last_name": "Mauhar",
+      "category": "Merckx - Men",
+      "start_time": "6:38 PM",
+      "start_position": 38.0
     }
   ],
   "emergency_contacts": {}
