@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:46:41.572497",
+  "updated_at": "2026-07-30T18:47:18.228184",
   "results": [
     {
       "bib": "70",
@@ -65,6 +65,15 @@
       "finish_time": "18:43:24.861",
       "result_time": "00:23:26.944",
       "result_ms": 1406944
+    },
+    {
+      "bib": "15",
+      "first_name": "Clint",
+      "last_name": "Swofford",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:46:45.308",
+      "result_time": "00:25:47.391",
+      "result_ms": 1547391
     }
   ]
 }
