@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T19:05:38.794571",
+  "updated_at": "2026-07-30T19:08:56.018908",
   "results": [
     {
       "bib": "70",
@@ -137,6 +137,15 @@
       "finish_time": "18:57:19.000",
       "result_time": "00:21:21.083",
       "result_ms": 1281083
+    },
+    {
+      "bib": "29",
+      "first_name": "Grant",
+      "last_name": "Hiriak",
+      "category": "Merckx - Men",
+      "finish_time": "19:08:19.799",
+      "result_time": "00:31:21.882",
+      "result_ms": 1881882
     },
     {
       "bib": "30",
