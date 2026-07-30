@@ -1,8 +1,17 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:33:11.846788",
+  "updated_at": "2026-07-30T18:34:33.767652",
   "results": [
+    {
+      "bib": "70",
+      "first_name": "Chris",
+      "last_name": "Hartzler",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:33:41.186",
+      "result_time": "00:32:43.269",
+      "result_ms": 1963269
+    },
     {
       "bib": "72",
       "first_name": "Chris",
