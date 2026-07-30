@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:50:03.160479",
+  "updated_at": "2026-07-30T18:54:43.761637",
   "results": [
     {
       "bib": "70",
@@ -83,6 +83,15 @@
       "finish_time": "18:46:45.308",
       "result_time": "00:25:47.391",
       "result_ms": 1547391
+    },
+    {
+      "bib": "100",
+      "first_name": "Tyler",
+      "last_name": "Clem",
+      "category": "Men (P/1/2/3)",
+      "finish_time": "18:54:05.285",
+      "result_time": "00:23:07.368",
+      "result_ms": 1387368
     }
   ]
 }
