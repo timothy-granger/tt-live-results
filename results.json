@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "July 30, 2026",
-  "updated_at": "2026-07-30T18:47:18.228184",
+  "updated_at": "2026-07-30T18:50:03.160479",
   "results": [
     {
       "bib": "70",
@@ -47,6 +47,15 @@
       "finish_time": "18:46:07.812",
       "result_time": "00:31:09.895",
       "result_ms": 1869895
+    },
+    {
+      "bib": "86",
+      "first_name": "Michelle",
+      "last_name": "Edwards",
+      "category": "Masters 60+ - Women",
+      "finish_time": "18:49:23.790",
+      "result_time": "00:32:25.873",
+      "result_ms": 1945873
     },
     {
       "bib": "88",
