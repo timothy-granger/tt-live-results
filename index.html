@@ -179,6 +179,9 @@
             color: #81c784;
         }
 
+        /* Open (unfilled) start-time slots: shown so gaps between groups are visible */
+        .placeholder-row { opacity: 0.4; font-style: italic; }
+
         @media (max-width: 600px) {
             .header h1 { font-size: 20px; }
             table { font-size: 13px; }
@@ -267,26 +270,37 @@
         let html = '';
 
         if (currentView === 'overall') {
-            // Show all riders in start order
-            html += `<div class="section-title">Start List <span class="finisher-count">${riders.length} riders</span></div>`;
+            // Show every start slot in order, including open (unfilled) ones so
+            // the gaps between groups are visible. Only real riders are counted.
+            const realCount = riders.filter(r => !r.placeholder).length;
+            html += `<div class="section-title">Start List <span class="finisher-count">${realCount} riders</span></div>`;
             html += `<table><thead><tr>
                 <th>Bib</th><th>Name</th><th>Category</th><th>Start Time</th>
             </tr></thead><tbody>`;
 
             riders.forEach(r => {
-                html += `<tr>
-                    <td class="bib-cell">${r.bib}</td>
-                    <td>${r.first_name} ${r.last_name}</td>
-                    <td>${r.category}</td>
-                    <td class="start-time-cell">${r.start_time}</td>
-                </tr>`;
+                if (r.placeholder) {
+                    html += `<tr class="placeholder-row">
+                        <td class="bib-cell">${r.bib}</td>
+                        <td></td>
+                        <td></td>
+                        <td class="start-time-cell">${r.start_time}</td>
+                    </tr>`;
+                } else {
+                    html += `<tr>
+                        <td class="bib-cell">${r.bib}</td>
+                        <td>${r.first_name} ${r.last_name}</td>
+                        <td>${r.category}</td>
+                        <td class="start-time-cell">${r.start_time}</td>
+                    </tr>`;
+                }
             });
             html += '</tbody></table>';
 
         } else {
-            // Group by category
+            // Group by category (open slots have no category, so skip them here)
             const groups = {};
-            riders.forEach(r => {
+            riders.filter(r => !r.placeholder).forEach(r => {
                 if (!groups[r.category]) groups[r.category] = [];
                 groups[r.category].push(r);
             });
@@ -418,8 +432,9 @@
                     renderStartList(startData);
 
                     document.getElementById('liveDot').className = 'live-dot startlist';
+                    const realRiders = startData.start_list.filter(r => !r.placeholder).length;
                     document.getElementById('statusText').textContent =
-                        `Start List Posted \u2014 ${startData.start_list.length} riders`;
+                        `Start List Posted \u2014 ${realRiders} riders`;
                     return;
                 }
             }
