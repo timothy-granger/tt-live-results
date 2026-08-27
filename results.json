@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "August 27, 2026",
-  "updated_at": "2026-08-27T18:34:40.605506",
+  "updated_at": "2026-08-27T18:37:54.169780",
   "results": [
     {
       "bib": "5",
@@ -11,6 +11,24 @@
       "finish_time": "18:32:22.391",
       "result_time": "00:27:23.286",
       "result_ms": 1643286
+    },
+    {
+      "bib": "6",
+      "first_name": "Chris",
+      "last_name": "Hartzler",
+      "category": "Men (4/5/U)",
+      "finish_time": "18:36:48.753",
+      "result_time": "00:30:49.648",
+      "result_ms": 1849648
+    },
+    {
+      "bib": "8",
+      "first_name": "Randall",
+      "last_name": "Tyner",
+      "category": "Masters 50+ - Men",
+      "finish_time": "18:37:20.912",
+      "result_time": "00:29:21.807",
+      "result_ms": 1761807
     },
     {
       "bib": "9",
