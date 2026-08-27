@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "August 27, 2026",
-  "updated_at": "2026-08-27T18:46:58.885494",
+  "updated_at": "2026-08-27T18:47:59.884196",
   "results": [
     {
       "bib": "5",
@@ -38,6 +38,15 @@
       "finish_time": "18:33:58.988",
       "result_time": "00:24:59.883",
       "result_ms": 1499883
+    },
+    {
+      "bib": "17",
+      "first_name": "Glynn",
+      "last_name": "Clements",
+      "category": "Masters 70+ - Men",
+      "finish_time": "18:47:27.289",
+      "result_time": "00:30:28.184",
+      "result_ms": 1828184
     },
     {
       "bib": "19",
