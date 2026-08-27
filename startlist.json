@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "August 27, 2026",
-  "updated_at": "2026-08-27T08:59:52.486855",
+  "updated_at": "2026-08-27T15:10:42.119161",
   "start_list": [
     {
       "bib": "1",
@@ -68,12 +68,12 @@
     },
     {
       "bib": "8",
-      "first_name": "",
-      "last_name": "",
-      "category": "",
+      "first_name": "Randall",
+      "last_name": "Tyner",
+      "category": "Masters 50+ - Men",
       "start_time": "6:08 PM",
       "start_position": 8.0,
-      "placeholder": true
+      "placeholder": false
     },
     {
       "bib": "9",
@@ -194,21 +194,21 @@
     },
     {
       "bib": "22",
-      "first_name": "",
-      "last_name": "",
-      "category": "",
+      "first_name": "Grant",
+      "last_name": "Hiriak",
+      "category": "Merckx - Men",
       "start_time": "6:22 PM",
       "start_position": 22.0,
-      "placeholder": true
+      "placeholder": false
     },
     {
       "bib": "23",
-      "first_name": "",
-      "last_name": "",
-      "category": "",
+      "first_name": "Dave",
+      "last_name": "Hiriak",
+      "category": "Masters 50+ - Men",
       "start_time": "6:23 PM",
       "start_position": 23.0,
-      "placeholder": true
+      "placeholder": false
     },
     {
       "bib": "24",
