@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "August 27, 2026",
-  "updated_at": "2026-08-27T18:44:35.548981",
+  "updated_at": "2026-08-27T18:46:58.885494",
   "results": [
     {
       "bib": "5",
@@ -56,6 +56,15 @@
       "finish_time": "18:43:59.929",
       "result_time": "00:24:00.824",
       "result_ms": 1440824
+    },
+    {
+      "bib": "21",
+      "first_name": "Jonathan",
+      "last_name": "Pait",
+      "category": "Merckx - Men",
+      "finish_time": "18:46:23.437",
+      "result_time": "00:25:24.332",
+      "result_ms": 1524332
     }
   ]
 }
