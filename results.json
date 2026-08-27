@@ -1,7 +1,7 @@
 {
   "race_name": "2026 Time Trial Series",
   "event_info": "August 27, 2026",
-  "updated_at": "2026-08-27T18:53:07.935437",
+  "updated_at": "2026-08-27T18:58:28.330316",
   "results": [
     {
       "bib": "5",
@@ -92,6 +92,15 @@
       "finish_time": "18:52:34.676",
       "result_time": "00:30:35.571",
       "result_ms": 1835571
+    },
+    {
+      "bib": "23",
+      "first_name": "Dave",
+      "last_name": "Hiriak",
+      "category": "Masters 50+ - Men",
+      "finish_time": "18:57:48.814",
+      "result_time": "00:34:49.709",
+      "result_ms": 2089709
     }
   ]
 }
